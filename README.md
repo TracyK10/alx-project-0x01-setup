@@ -1,4 +1,4 @@
-# alx-project-0x01
+# React Architect: Mastering Advanced Structures in Next.js
 
 A modern Next.js web application scaffolded using `create-next-app@latest`. This project includes pre-configured support for:
 
