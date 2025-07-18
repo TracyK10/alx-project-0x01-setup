@@ -1,5 +1,6 @@
 import PostCard from "@/components/common/PostCard";
 import PostModal from "@/components/common/PostModal";
+import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import { PostData, PostProps } from "@/interfaces";
 import { useState } from "react";
@@ -37,6 +38,7 @@ const Posts: React.FC<PostProps[]> = ({ posts }) => {
           ))}
         </div>
       </main>
+      <Footer />
 
       {isModalOpen && (
         <PostModal

@@ -3,6 +3,7 @@ import UserCard from "@/components/common/UserCard";
 import UserModal from "@/components/common/UserModal";
 import { UserData, UserProps } from "@/interfaces";
 import { useState } from "react";
+import Footer from "@/components/layout/Footer";
 
 interface UsersPageProps {
   posts: UserProps[];
@@ -36,6 +37,7 @@ const Users: React.FC<UsersPageProps> = ({ posts }) => {
           ))}
         </div>
       </main>
+      <Footer />
 
       {isModalOpen && (
         <UserModal
